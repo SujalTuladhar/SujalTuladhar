@@ -1,0 +1,182 @@
+body {
+    background-image: url("Sujal.gif");
+     background-repeat: no-repeat;
+   background-size: 100%;
+   
+}
+
+
+body {
+  font-family: 'Courier New', monospace;
+  background-color:#blue;
+  text-align: left;
+  color:#EEE8AA;
+  padding-top:30px;
+  padding-left:350px;
+
+}
+
+
+* { color:#EEE8AA; text-decoration: none;}
+
+.profile {
+   
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  opacity:0.95;
+}
+
+.Cert1 {
+   
+  position: absolute;
+  top: 320px;
+  left: 30px;
+  opacity:0.75;
+}
+
+.Cert2 {
+   
+  position: absolute;
+  top: 320px;
+  left: 425px;
+  opacity:0.75;
+}
+
+.Cert3 {
+   
+  position: absolute;
+  top: 320px;
+  left: 820px;
+  opacity:0.75;
+}
+
+.Cert4 {
+   
+  position: absolute;
+  top: 30px;
+  left: 890px;
+  opacity:0.75;
+}
+
+.Cert5 {
+   
+  position: absolute;
+  top: 30px;
+  left: 1200px;
+  opacity:0.75;
+}
+
+.Cert6 {
+   
+  position: absolute;
+  top: 320px;
+  left: 1200px;
+  opacity:0.75;
+}
+
+//Overlay
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.container 1{
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+ 
+  bottom: 210px;
+  right: 1240px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 380px;
+  left: 80px;
+  opacity:0.5;
+}
+
+.text-block2 {
+ 
+  bottom: 210px;
+  right: 850px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 380px;
+  left: 475px;
+  opacity:0.5;
+}
+
+.text-block3 {
+ 
+  bottom: 210px;
+  right: 460px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 380px;
+  left: 870px;
+  opacity:0.5;
+}
+
+.text-block4 {
+ 
+  bottom: 450px;
+  right: 460px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 100px;
+  left: 950px;
+  opacity:0.5;
+}
+
+.text-block5 {
+ 
+  bottom: 450px;
+  right: 120px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 80px;
+  left: 1237px;
+  opacity:0.5;
+}
+
+
+
+.text-block6 {
+ 
+  bottom: 175px;
+  right: 120px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 375px;
+  left: 1237px;
+  opacity:0.5;
+}
+
+.Icon1
+{
+ top:100px;
+padding-top:10px;
+
+}
+

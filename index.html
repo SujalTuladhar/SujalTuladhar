@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+ <link rel="stylesheet" href="Style.css">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ <script src="https://tryhackme.com/badge/1278943" ></script>
+
+
+<body>
+
+  <!-- Trigger the Modal -->
+
+
+<a href="https://imgur.com/P2XLOVO" target="_blank"><img id="myImg"  src="Cert1.jpg" class="Cert1" width="320" height="220"></a>
+<div class="text-block" >
+    <h4> Cisco Certificate</h4>
+    <p>Introduction to Cybersecurity</p>
+  
+</div>
+
+
+<a href="https://imgur.com/jbmszoR" target="_blank"><img id="myImg" src="Cert2.jpg" class="Cert2" width="320" height="220"></a>
+<div class="text-block2">
+    <h4>Cisco Certificate</h4>
+    <p>Introduction to Cybersecurity [2]</p>
+  
+</div>
+
+<a href="https://imgur.com/cOhdlfd" target="_blank"><img id="myImg" src="Sujal Tuladhar.jpg" class="Cert3" width="320" height="220"></a>
+<div class="text-block3">
+    <h4>ThreatCon</h4>
+    <p>2022</p>
+  
+</div>
+
+<a href="https://imgur.com/SF59iTR" target="_blank"><img id="myImg" src="conq.jpg" class="Cert4" width="250" height="275"></a>
+<div class="text-block4">
+    <h4>Islington 2022</h4>
+    <p>Capture The Flag</p>
+  
+</div>
+
+<a href="https://imgur.com/AwZEyQ0" target="_blank"><img id="myImg" src="cr1.jpg" class="Cert5" width="250" height="275"></a>
+<div class="text-block5">
+    <h4>Uniglobe SS College</h4>
+    <p>Class Representative 2020</p>
+  
+</div>
+
+<a href="https://imgur.com/YIq4vIX" target="_blank"><img id="myImg" src="cr2.jpg" class="Cert6" width="250" height="275"></a>
+<div class="text-block6">
+    <h4>Uniglobe SS College</h4>
+    <p>Class Representative 2021</p>
+  
+</div>
+
+
+<a href="https://www.linkedin.com/in/sujal-tuladhar/" target="_blank"><img src="linkedin.png" width="30" height="30" ></a>
+
+<a href="https://www.instagram.com/evil_genius_01000100/" target="_blank"><img src="insta.png" width="30" height="30" ></a>
+
+<a href="https://www.facebook.com/evil.genius6/" target="_blank"><img src="facebook.png" width="30" height="30" ></a>
+
+
+
+<img src = "Sujal Tuladhar .png" class = "profile" width="250" height="250">
+
+<script>
+
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+
+
+
+</script>
+
+
+
+<h2>
+  <a href="" class="typewrite" data-period="10000000" data-type='[ "# whoami"]'>
+    <span class="wrap"></span>
+  </a>
+</h2>
+
+
+<h2>
+  <a href="" class="typewrite" data-period="1000" data-type='[ "Cyber Security and Networking Student","Username Evil_Genius"]'>
+    <span class="wrap"></span>
+  </a>
+</h2>
+
+
+
+
+
+
+</body>
+</html>
+
